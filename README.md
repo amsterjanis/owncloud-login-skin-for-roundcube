@@ -1,7 +1,7 @@
 Roundcube skin "ownCloud login"
 =================================
 
-![Preview image](https://github.com/amsterjanis/owncloud-login-skin-for-roundcube/raw/master/preview.png "Logo Title Text 1")
+![Preview image](https://github.com/amsterjanis/owncloud-login-skin-for-roundcube/raw/master/preview.png)
 
 **Note:** this is just a skin, it offers no functional improvements or alterations.
 
