@@ -33,26 +33,35 @@
 }
 
 #login-form {
-	display: -moz-box;
-	-moz-box-orient: horizontal;
-	-moz-box-pack: center;
-	-moz-box-align: center;
+	/*display: -moz-box;*/
+	/*-moz-box-orient: horizontal;*/
+	/*-moz-box-pack: center;*/
+	/*-moz-box-align: center;*/
 	min-height: 100%;
 	margin: 0 auto -70px;
 	width: 300px;
-	vertical-align: baseline;
+	/*vertical-align: baseline;*/
 }
 
 #login-form .box-inner {
 	width: inherit;
 	background: none;
-	margin: 0 0 70px 0;
+	/*margin: 0 0 70px 0;*/
 	padding: 0;
 	border: none;
 	box-shadow: none;
 	-o-box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
+
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50%;
+	min-height: 500px;
 }
 
 #login-form #logo {

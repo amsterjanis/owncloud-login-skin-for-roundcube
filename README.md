@@ -17,7 +17,7 @@ Also uses [jQuery](https://jquery.com/), because I'm lazy (it should be easy eno
 
 ## Compatibility
 
-So far tested only on modern browsers, no clue what this thing does to IE. Use at your own risk.
+So far tested only on modern browsers (Firefox 37, Chrome 39, IE 11), no clue what this thing does to older IEs. Use at your own risk.
 
 ## Installation
 
