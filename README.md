@@ -1,5 +1,7 @@
-Roundcube skin "Owncloud login"
+Roundcube skin "ownCloud login"
 =================================
+
+![Preview image](https://github.com/amsterjanis/owncloud-login-skin-for-roundcube/raw/master/preview.png "Logo Title Text 1")
 
 **Note:** this is just a skin, it offers no functional improvements or alterations.
 
@@ -33,4 +35,4 @@ You can also just merge this folder with that of another skin; the only file tha
 
 Based on the skin "Larry" for Roundcube, copyright (c) 2012, The Roundcube Dev Team, licensed under the Creative Commons Attribution-ShareAlike License (see http://creativecommons.org/licenses/by-sa/3.0/ for details).
 
-Design based on the default skin of Owncloud, copyright (c) 2011, Jan-Christoph Borchardt, http://jancborchardt.net, licensed under the Affero General Public License version 3 or later (see https://www.gnu.org/licenses/agpl-3.0.html for details).
+Design based on the default skin of ownCloud, CSS styles copyright (c) 2011, Jan-Christoph Borchardt, http://jancborchardt.net, licensed under the Affero General Public License version 3 or later (see https://www.gnu.org/licenses/agpl-3.0.html for details).

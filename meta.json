@@ -1,5 +1,5 @@
-﻿{
-	"name": "Owncloud login",
+{
+	"name": "ownCloud login",
 	"extends": "larry",
 	"author": "Jānis Amsters",
 	"license": "GNU Affero General Public License 3.0",

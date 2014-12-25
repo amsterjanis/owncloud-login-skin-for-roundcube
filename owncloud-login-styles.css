@@ -154,6 +154,8 @@
 #login-form #message>div {
 	font-size: 16px;
 	background-position: 0 -83px;
+	max-width: 300px;
+	white-space: normal;
 }
 
 #login-form #message .loading {
