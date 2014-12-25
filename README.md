@@ -19,24 +19,18 @@ So far tested only on modern browsers, no clue what this thing does to IE. Use a
 
 ## Installation
 
-This skin only alters the login page so you'll be using it with some other skin for the main mailbox interface
+This skin only alters the login page so you'll be using it with some other skin for the main mailbox interface.
+By default this skin uses "Larry" skin but you can change this by altering `meta.json`, line `"extends": "larry"` to whatever skin you have installed.
 
-#### With the "Larry" skin
-
-1. Drop this folder into `/roundcube/skins/` (*Note:* each theme has its own folder under `/skins/`, this one should too)
+1. Drop this folder into `/roundcube/skins/` (*Note:* each skin has its own folder under `/skins/`, this one should too)
 2. You're done! Log in and change the skin under user interface settings.
 
-#### With the "Classic" skin
+You can also just merge this folder with that of another skin; the only file that conflicts should be `/templates/login.html`. Keep the one from this skin and you're done. If there are other conflicts, you're probably better off just using the method above.
 
-1. Open the file `meta.json` and change the line `"extends": "larry",` to `"extends": "classic",`
-2. Drop this folder into `/roundcube/skins/` (*Note:* each theme has its own folder under `/skins/`, this one should too) 
-3. You're done! Log in and change the skin under user interface settings.
+(Optional) You can set this (or any other) skin as the default for your Roundcube installation by modifying (or adding if it's not there already) the line `$config['skin'] = 'ownCloud login';` to the config file `/roundcube/config/config.inc.php`.
 
-#### With a custom skin
+## Attribution
 
-1. Back up your current skin directory
-2. Drop the contents of this folder into the folder of your preferred skin
-3. When asked to overwrite `/templates/login.html` say yes (no other files should conflict, if they do you'll have some renaming to do)
-4. You're done!
+Based on the skin "Larry" for Roundcube, copyright (c) 2012, The Roundcube Dev Team, licensed under the Creative Commons Attribution-ShareAlike License (see http://creativecommons.org/licenses/by-sa/3.0/ for details).
 
-
+Design based on the default skin of Owncloud, copyright (c) 2011, Jan-Christoph Borchardt, http://jancborchardt.net, licensed under the Affero General Public License version 3 or later (see https://www.gnu.org/licenses/agpl-3.0.html for details).
