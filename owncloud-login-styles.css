@@ -87,7 +87,7 @@
 #login-form form input[type="text"],
 #login-form form input[type="password"] {
 	font-size: 20px;
-	line-height: 1.4em;
+	line-height: 20px;
 	color: #555;
 	border: none;
 	box-shadow: none;
@@ -116,6 +116,11 @@
 	border-top-left-radius: 0;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset !important;
 	background-image: url("images/owncloud-login-password.svg");
+}
+
+#login-form form input:-ms-input-placeholder {
+	/*opacity: 0.5;*/
+	color: #a09fa1;
 }
 
 /* Buttons */
