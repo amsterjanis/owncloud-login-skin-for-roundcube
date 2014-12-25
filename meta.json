@@ -1,0 +1,7 @@
+﻿{
+	"name": "Owncloud login",
+	"extends": "larry",
+	"author": "Jānis Amsters",
+	"license": "GNU Affero General Public License 3.0",
+	"license-url": "https://www.gnu.org/licenses/agpl-3.0.html"
+}
