@@ -1,4 +1,4 @@
-Roundcube skin "ownCloud login"
+Roundcube skin '*ownCloud login*'
 =================================
 
 ![Preview image](https://github.com/amsterjanis/owncloud-login-skin-for-roundcube/raw/master/preview.png)
@@ -33,7 +33,11 @@ So far tested only on modern browsers (Firefox 37, Chrome 39, IE 11), if you nee
 ---------------------------
 
 This skin only alters the login page so you'll be using it with some other skin for the main mailbox interface.
-By default this skin uses the "Larry" skin but you can change this by editing the file `meta.json`. Just change `"extends": "larry"` to whatever skin you have installed.
+By default this skin uses the "Larry" skin but you can change this by editing the file `meta.json`. Just change 
+```
+"extends": "larry",
+```
+to whatever skin you have installed.
 
 *Note:* You can also just merge this with another skin; the only file that conflicts should be `/templates/login.html`. Keep the one from this skin and you're done.
 
