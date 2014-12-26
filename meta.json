@@ -3,6 +3,6 @@
 	"extends": "larry",
 	"author": "amsterjanis",
   	"url": "https://github.com/amsterjanis/",
-	"license": "GNU Affero General Public License 3.0",
-	"license-url": "https://www.gnu.org/licenses/agpl-3.0.html"
+	"license": "Creative Commons Attribution-ShareAlike",
+	"license-url": "http://creativecommons.org/licenses/by-sa/3.0/"
 }
