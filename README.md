@@ -39,7 +39,7 @@ By default this skin uses the "Larry" skin but you can change this by editing th
 
 ---------------------------
 
-(*Optional*) You can specify the default for your Roundcube installation by editing the config file `/roundcube/config/config.inc.php`:
+(*Optional*) You can specify the default skin for your Roundcube installation by editing the config file `/roundcube/config/config.inc.php`:
 ```
 $config['skin'] = 'custom_skin';
 ``` 
