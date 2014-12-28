@@ -55,6 +55,7 @@
 }
 
 #login-form #logo {
+	width: 100%;
 	max-width: 269px;
 	margin-bottom: 20px;
 }
