@@ -9,7 +9,7 @@ Roundcube skin '*ownCloud login*'
 
 A skin for the login page of [Roundcube](http://roundcube.net/) webmail, based on the design of [ownCloud](https://owncloud.org/)'s login page.
 
-Uses code (CSS tidbits) and assets (icons) both from the default ownCloud theme and Roundcube's "Larry" theme (see attribution below).
+Uses code (CSS tidbits) from the default ownCloud theme and and assets (icons) from Roundcube's "Larry" theme. Attributions can be found on the bottom of the page.
 
 ## Requirements
 

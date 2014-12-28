@@ -15,6 +15,7 @@
 #login-html,
 #login-body {
 	height: 100%;
+	min-height: 500px;
 }
  
 #login-body {
@@ -72,27 +73,28 @@
 	padding: 0;
 }
 
-#login-form form input:hover,
-#login-form form input:focus,
-#login-form form input:active {
-	color: #353535;
-	outline: none;
-}
-
 #login-form form input {
 	font-size: 20px;
 	border: none;
 	border-radius: 5px;
 	margin: 5px;
+	color: #555;
+}
+
+#login-form form input:hover,
+#login-form form input:focus,
+#login-form form input:active {
+	color: #3c3c3c;
+	outline: none;
 }
 
 #login-form form input[type="text"],
 #login-form form input[type="password"] {
-	color: #555;
+
 	width: 223px;
 	padding: 12px 10px 10px 36px;
 	background-repeat: no-repeat;
-	background-position: 10px;
+
 }
 
 #login-form form input#rcmloginuser {
@@ -100,6 +102,7 @@
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	background-image: url("images/owncloud-login-user.svg");
+	background-position: 10px;
 }
 
 #login-form form input#rcmloginpwd {
@@ -107,7 +110,8 @@
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
 	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset !important;
-	background-image: url("images/owncloud-login-password.svg");
+	background-image: url("images/owncloud-login-lock.svg");
+	background-position: 5px 12px;
 }
 
 #login-form form input:-ms-input-placeholder {
@@ -244,6 +248,18 @@
 #login-form #ifplcontainer label[for=_ifpl] {
 	color: #CCC;
 	opacity: 0.6;
+}
+
+#login-form #ifplcontainer label[for=_ifpl]:hover,
+#login-form #ifplcontainer label[for=_ifpl]:focus,
+#login-form #ifplcontainer label[for=_ifpl]:active {
+	opacity: 0.75;
+}
+
+#login-form #ifplcontainer input[type="checkbox"]:hover + label[for=_ifpl],
+#login-form #ifplcontainer input[type="checkbox"]:focus + label[for=_ifpl],
+#login-form #ifplcontainer input[type="checkbox"]:active + label[for=_ifpl] {
+	opacity: 0.75;
 }
 
 #login-form #ifplcontainer p {
